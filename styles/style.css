@@ -1,3 +1,60 @@
-h1{
-    color:blue
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.lady{
+    background-image: url('../images/samanta-sokolova-t0kpF4q_ThI-unsplash.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    height: 200vh; 
+}
+
+.lady h1{
+    color:chartreuse;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-family: cursive;
+    padding-top: 1px;
+    word-spacing: 10px;
+    letter-spacing: 15px;
+}
+
+.article ,#forest{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; */
+    margin: 50px auto;
+    border-width: 10px;
+    border-color: brown;
+    border-radius: 10%;
+    border-style:solid;
+    background-color:aqua;
+    padding: 60px;
+}
+.article h1{
+    text-align: center;
+    font-size: 30px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.article p{
+    font-size: 30px;
+    line-height: 2em;
+}
+.article p .imp{
+    font-size: 2em;
+    font-weight: 700;
+    /* background-color: yellow; */
+    /* display:inline-block; */
+    /* width: 600px; */
+    color:brown ;
 }
