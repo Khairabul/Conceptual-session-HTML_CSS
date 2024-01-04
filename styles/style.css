@@ -23,19 +23,16 @@
     letter-spacing: 15px;
 }
 
-.article ,#forest{
+.article {
     width: 80%;
-    /* margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px; */
     margin: 50px auto;
-    border-width: 10px;
+    padding: 60px;
+    /* border-width: 10px;
     border-color: brown;
     border-radius: 10%;
     border-style:solid;
-    background-color:aqua;
-    padding: 60px;
+    background-color:aqua; */
+    
 }
 .article h1{
     text-align: center;
@@ -57,4 +54,15 @@
     /* display:inline-block; */
     /* width: 600px; */
     color:brown ;
+}
+.forest_image{
+    display:flex;    
+    flex-direction: row;
+    gap: 20px;
+}
+.forest_image div{
+    min-width: 300px;
+}
+.forest_image img{
+    width: 100%;
 }
